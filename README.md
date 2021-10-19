@@ -1,6 +1,7 @@
 # barangay
 
-![Node.js CI](https://github.com/genediazjr/barangay/actions/workflows/build.yml/badge.svg)
+[![Node.js CI](https://github.com/genediazjr/barangay/actions/workflows/build.yml/badge.svg)](https://github.com/genediazjr/barangay/actions/workflows/build.yml)
+[![CodeQL](https://github.com/genediazjr/barangay/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/genediazjr/barangay/actions/workflows/codeql-analysis.yml)
 
 A simple list of barangays in the Philippines ordered into city/towns, provinces, then regions.
 
