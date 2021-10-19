@@ -1,5 +1,9 @@
 import { readFileSync } from 'fs';
-const dump = JSON.parse(readFileSync('./barangay.json', 'utf-8'));
+import { fileURLToPath } from 'url';
+import { dirname, resolve } from 'path';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+const dump = JSON.parse(readFileSync(resolve(__dirname, './barangay.json'), 'utf-8'));
 const barangay = (region, province, towncity) => {
   if (!region) {
     return Object.keys(dump);
