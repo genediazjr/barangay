@@ -1,0 +1,27 @@
+{
+  "name": "barangay",
+  "type": "module",
+  "main": "index.js",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "semistandard --verbose | snazzy && tap"
+  },
+  "devDependencies": {
+    "semistandard": "16.x",
+    "snazzy": "9.x",
+    "tap": "15.x"
+  },
+  "keywords": [
+    "address",
+    "barangay",
+    "location",
+    "philippines"
+  ],
+  "repository": "git://github.com/genediazjr/barangay",
+  "description": "A simple list of barangays in the Philippines ordered into city/towns, provinces, then regions.",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)"
+}
