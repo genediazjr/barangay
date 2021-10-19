@@ -8,11 +8,9 @@
     "node": ">=12"
   },
   "scripts": {
-    "test": "semistandard --verbose | snazzy && tap"
+    "test": "tap"
   },
   "devDependencies": {
-    "semistandard": "16.x",
-    "snazzy": "9.x",
     "tap": "15.x"
   },
   "keywords": [
