@@ -25,4 +25,5 @@ const barangay = (region, province, towncity) => {
 
 barangay.dump = dump;
 
-export default barangay;
+module.exports = barangay;
+module.exports.default = barangay;

@@ -1,5 +1,5 @@
-import { test } from 'tap';
-import barangay from './index.js';
+const { test } = require('tap');
+const barangay = require('./index.js');
 
 test('barangay.dump', ({ ok, end }) => {
   ok(barangay.dump, 'has dump');
@@ -25,8 +25,3 @@ test('baragay(region, province, towncity)', ({ ok, throws, end }) => {
   throws(() => barangay('NATIONAL CAPITAL REGION', 'METRO MANILA', 'x'), {}, 'throws on invalid town/city');
   end();
 });
-
-// test('baragay()', (ok, end) => {
-
-//   end();
-// });
